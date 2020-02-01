@@ -1,0 +1,70 @@
+#encap {
+    margin: auto auto;
+}
+
+#container {
+    width: 500px;
+    display: inline-block;
+    font-family: sans-serif;
+    background-color: #fff;
+    margin: 0 calc(50% - 250px);
+}
+
+#todos a {
+    padding: 2px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#todos a:hover{
+    opacity: 0.7;
+    font-size: 15px;
+    transition: 500ms;
+    background-color: #ddd;
+}
+
+.todo {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+.todo span:nth-of-type(2){
+    display: block;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+#addtodo input {
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#addtodo input[name="title"] {
+    width: 100px;
+}
+
+#addtodo input[name="description"] {
+    width: 215px;
+}
+
+#addtodo button {
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#addtodo button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#addtodo input:focus, #addtodo button:focus {
+    outline: 0;
+}
