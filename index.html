@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #todolist-container {
+            color: white;
+            padding: 10px;
+            width: 500px;
+            border-radius: 10px;
+            display: inline-block;
+            font-family: sans-serif;
+            margin: 20px calc(50% - 260px);
+            background-color: rgb(185, 185, 185);
+        }
+
+        #todolist li {
+            margin: 10px;
+            padding: 10px 0;
+            border-radius: 10px;
+            background-color: violet;
+        }
+
+        #newtodo-container {
+            margin: 10px;
+            float: right;
+        }
+
+        #newtodo-container input {
+            border: none;
+            width: 340px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        #newtodo-container button {
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        #newtodo-container input:focus, #newtodo-container button:focus {
+            outline: 0;
+        }
+
+        #float-clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="todolist-container">
+        <ul id="todolist">
+            
+        </ul>
+        <div id="newtodo-container">
+            <input type="text" name="newtodo-input">
+            <button>Adicionar</button>
+        </div>
+        <div id="float-clear"></div>
+        <script src="./main.js"></script>
+    </div>
+</body>
+</html>
